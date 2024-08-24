@@ -85,6 +85,7 @@ const Sidebar = ( ) => {
               <span className={`${!open && "hidden"} origin-left duration-200`}>
                 {Menu.title}
               </span>
+              <input type="text" />
               
             </Link>
           ))}
